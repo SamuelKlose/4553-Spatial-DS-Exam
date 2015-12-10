@@ -1,0 +1,21 @@
+Root:  Node Disc: 
+[58, 19]
+0
+Node Value: Node Disc:
+[19, 78]
+1
+Node Value: Node Disc:
+[77, 77]
+0
+Node Value: Node Disc:
+[88, 88]
+1
+Node Value: Node Disc:
+[99, 99]
+0
+Node Value: Node Disc:
+[100, 100]
+1
+Found Node: Node Disc:
+[100, 100]
+1
