@@ -108,11 +108,11 @@ class BinaryTree:
 	self.discriminators[t.id] = discLevel
         while node != None:
             parent = node
-            discLevel = self.nextDisc(discLevel)
             if node.key[discLevel] > t.key[discLevel]:
                 node = node.left
             else:
                 node = node.right
+                discLevel = self.nextDisc(discLevel)
         t.p = parent
         self.discriminators[t.id] = discLevel
         if parent == None:
